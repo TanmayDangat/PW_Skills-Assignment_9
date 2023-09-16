@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Que 2</title>
+    <style>
+        *{
+            background-color: #000000;
+        }
+        
+        .box{
+            display: grid;
+            justify-content: center;
+            background-color: #ffffff;
+            border-radius: 8px;
+            margin-right: 500px;
+            margin-left: 500px;
+            line-height: 8px;
+        }
+
+        h1{
+            display: grid;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background-color: #ffffff;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="password"],
+        select{
+            width: 350px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            border-radius: 3px;
+        }
+
+        a{
+            display: grid;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 15px;
+            margin-bottom: 50px;
+            border-radius: 3px;
+        }
+
+        label{
+            background-color: #ffffff;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Signup</h1>
+      <label for="Name">Name: </label><br />
+      <input type="text" name="Name" id="Name" /><br />
+      <label for="Batch">Batch: </label><br />
+      <select name="Batch" id="Batch">
+        <option value="">--Select Batch--</option>
+        <option value="Sigma 1.0">Sigma 1.0</option>
+        <option value="Sigma 2.0">Sigma 2.0</option>
+        <option value="Sigma 3.0">Sigma 3.0</option></select
+      ><br />
+      <label for="Age">Age: </label><br />
+      <input type="number" name="Age" id="Age" /><br />
+      <label for="Email">Email: </label><br />
+      <input type="email" name="Email" id="Email" /><br />
+      <label for="Password">Password: </label><br />
+      <input type="password" name="Password" id="Password" /><br />
+      <a href="#">Signup</a>
+    </div>
+  </body>
+</html>
